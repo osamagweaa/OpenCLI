@@ -1,0 +1,25 @@
+{
+  "name": "opencli",
+  "owner": {
+    "name": "osamagweaa"
+  },
+  "metadata": {
+    "description": "OpenCLI plugin marketplace: skills for driving websites, browsers, and local tools through the opencli CLI."
+  },
+  "plugins": [
+    {
+      "name": "opencli",
+      "source": "./",
+      "description": "OpenCLI skills for Claude Code: browser control on your logged-in Chrome, adapter authoring, autofix, sitemaps, smart search.",
+      "version": "1.8.6",
+      "license": "Apache-2.0",
+      "category": "automation",
+      "keywords": [
+        "cli",
+        "browser",
+        "automation",
+        "web"
+      ]
+    }
+  ]
+}

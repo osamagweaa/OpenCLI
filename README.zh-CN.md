@@ -105,6 +105,15 @@ npx skills add jackwener/opencli --skill opencli-sitemap-author
 npx skills add jackwener/opencli --skill opencli-usage
 ```
 
+### 作为 Claude Code 插件安装
+
+```bash
+claude plugin marketplace add osamagweaa/OpenCLI
+claude plugin install opencli@opencli
+```
+
+插件打包 `skills/` 下的全部 skill，并在会话启动时检测 `opencli` 是否已安装。插件不会安装 CLI 本体，请先运行 `npm install -g @jackwener/opencli`。
+
 ### 选择哪个 skill
 
 | Skill | 适用场景 | 你对 AI Agent 说的话 |

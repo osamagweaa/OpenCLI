@@ -119,6 +119,15 @@ npx skills add jackwener/opencli --skill opencli-sitemap-author
 npx skills add jackwener/opencli --skill opencli-usage
 ```
 
+### Install as a Claude Code plugin
+
+```bash
+claude plugin marketplace add osamagweaa/OpenCLI
+claude plugin install opencli@opencli
+```
+
+The plugin bundles every skill under `skills/` and warns at session start if the `opencli` binary is missing. It does not install the CLI itself — run `npm install -g @jackwener/opencli` first.
+
 ### Which skill to use
 
 | Skill | When to use | Example prompt to your AI agent |
