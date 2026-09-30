@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v opencli >/dev/null 2>&1 || echo 'OpenCLI plugin: the `opencli` binary is not on PATH. Install it with `npm install -g @jackwener/opencli` (Node >= 20), install the Browser Bridge extension, then run `opencli doctor`.'"
+          }
+        ]
+      }
+    ]
+  }
+}
