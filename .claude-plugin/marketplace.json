@@ -11,7 +11,7 @@
       "name": "opencli",
       "source": "./",
       "description": "OpenCLI skills for Claude Code: browser control on your logged-in Chrome, adapter authoring, autofix, sitemaps, smart search.",
-      "version": "1.8.6",
+      "version": "1.8.8",
       "license": "Apache-2.0",
       "category": "automation",
       "keywords": [

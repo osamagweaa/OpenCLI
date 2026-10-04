@@ -1,6 +1,6 @@
 {
   "name": "opencli",
-  "version": "1.8.6",
+  "version": "1.8.8",
   "description": "Turn any website, Electron app, or local tool into a CLI and drive your logged-in Chrome from Claude Code. Bundles the OpenCLI skills: usage, browser, adapter authoring, autofix, sitemaps, smart search.",
   "author": {
     "name": "jackwener",
